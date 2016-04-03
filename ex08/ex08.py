@@ -10,3 +10,5 @@ print formatter % (
     "But it didn't sing.",
     "So I said goodnight."
 )
+# why the third string just have "" when the others have ''?
+# is it affected by 5th line?
