@@ -8,14 +8,11 @@ txt = open(filename)
 print "Here's your file %r:" % filename
 #I write file name in script parameter. it will show up
 print txt.read()
-#txt equals open file in line 5. command read will print ex15_sample.txt file
+#txt is command that open file in line 5. command read will print ex15_sample.txt file
 
 print "Type the filename again:"
 file_again = raw_input("> ")
-#write file name exactly same with .txt
 
 txt_again = open(file_again)
-#It's the same with in line 5
 
 print txt_again.read()
-# It will print what I write in line 14(raw_input)
