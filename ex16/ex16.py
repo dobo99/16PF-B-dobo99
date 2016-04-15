@@ -10,9 +10,12 @@ raw_input("?")
 
 print "Opening the file..."
 target = open(filename, 'w')
+#'w' means write. so this cammand will open the file
+#'target' command will targeting the file what I want to
 
 print "Truncating the file. Goodbye!"
 target.truncate()
+#truncate is delete. everything in that file will delete
 
 print "Now I'm going to ask you for three lines."
 
@@ -28,6 +31,7 @@ target.write(line2)
 target.write("\n")
 target.write(line3)
 target.write("\n")
+#target in here is what I targeting in line 12
 
 print "And finally, we close it."
 target.close()
