@@ -29,7 +29,7 @@ print("Now let's rewind, kind of like a tape")
 # printing
 
 rewind(current_file)
-# return to the first of current_file, literally first
+# return to the first string of current_file, literally first
 
 print("Let's print three lines:")
 # printing
