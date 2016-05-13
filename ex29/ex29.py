@@ -5,6 +5,7 @@ dogs = 15
 
 if people < cats:
     print "Too many cats! The world is doomed!"
+# if statement is operated when it's true. if people < cats is true, print strings
 
 if people > cats:
     print "Not many cats! The world is saved!"
