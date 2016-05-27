@@ -6,13 +6,13 @@ hashmap.set(states, 'Oregon', 'OR')
 hashmap.set(states, 'Florida', 'FL')
 hashmap.set(states, 'California', 'CA')
 hashmap.set(states, 'New York', 'NY')
-hashmap.set(states, 'Michigan', 'MI')
+hashmap.set(states, 'Hawaii', 'HI')
 
 # create a basic set of states and some cities in them
 cities = hashmap.new()
-hashmap.set(cities, 'CA', 'San Francisco')
-hashmap.set(cities, 'MI', 'Detroit')
-hashmap.set(cities, 'FL', 'Jacksonville')
+hashmap.set(cities, 'CA', 'Los Angeles')
+hashmap.set(cities, 'HI', 'Honolulu')
+hashmap.set(cities, 'FL', 'Orlando')
 
 #add some more cities
 hashmap.set(cities, 'NY', 'New York')
@@ -26,12 +26,12 @@ print "OR State has: %s" % hashmap.get(cities, 'OR')
 
 # print some states
 print '-' * 10
-print "Michigan's abbreviation is: %s" % hashmap.get(states, "Michigan")
+print "Hawaii's abbreviation is: %s" % hashmap.get(states, "Hawaii")
 print "Florida's abbreviation is: %s" % hashmap.get(states, 'Florida')
 
 # do it by using the state then cities dict
 print '-' * 10
-print "Michigan has: %s" % hashmap.get(cities, hashmap.get(states, 'Michigan'))
+print "Hawaii has: %s" % hashmap.get(cities, hashmap.get(states, 'Hawaii'))
 print "Florida has: %s" % hashmap.get(cities, hashmap.get(states, 'Florida'))
 
 # print every state abbreviation
