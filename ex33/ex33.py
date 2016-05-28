@@ -12,5 +12,5 @@ while i < 6: # order 'while' is repeating order continuous
 
 print "The numbers: "
 
-for num in numbers:
+for num in numbers: # for-loop repeat order at the end
     print num
