@@ -26,7 +26,7 @@ if (len(sys.argv) == 2) and (sys.argv[1] == "한글"):
     PHRASE_FIRST = True
 
 for word in urlopen(WORD_URL).readlines():
-    WORDS.append(word.strip())
+    WORDS.append(word.strip()) # we take a word from above web page and add WORDS list
 
 
 def convert(snippet, phrase):
@@ -75,4 +75,4 @@ try:
             raw_input("> ")
             print("답: %s\n\n" % answer)
 except EOFError:
-    print("\n안녕")
+    print("\n안녕") # when you tab ctrl + d
